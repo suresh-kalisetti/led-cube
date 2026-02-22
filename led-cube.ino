@@ -16,7 +16,7 @@ void setup() {
     WiFi.begin(ssid, password);
     while (WiFi.status() != WL_CONNECTED) {
         delay(1000);
-        tft.println("Connecting to WiFi...");
+        tft.println("Connecting to WiFi......");
     }
     tft.println("Connected to WiFi");
 }
